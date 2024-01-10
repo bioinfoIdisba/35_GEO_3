@@ -2,7 +2,7 @@ library(shiny)
   source("llibreries_Informes.R")
   source("llibreries.R")
   load(file = "gse_abstract")
-  
+  #s
   ui <- (fluidPage(
     # add_busy_bar(color = "lightblue", height = "18px"),
     add_busy_spinner(spin = "flower",position = "top-right",color = "blue",
